@@ -1,0 +1,70 @@
+* {
+-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+        box-sizing: border-box;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+#header-container {
+    width: 72%;
+    margin: 0 auto;
+}
+
+#header-home {
+    background: url("assets/your_verse_hero.jpg") -45px -775px no-repeat;
+}
+
+#header-home ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#header-home ul li {
+    float: left;
+}
+
+#header-home-title-container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+#main-home {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-home-content {
+    width: 25%;
+}
+
+.main-home-content img {
+    width: 100%;
+}
+
+#footer-home {
+
+}
+
+#footer-home p {
+    display: inline;
+}
+
+#footer-home ul, #footer-home ul li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#footer-terms-border span {
+    border-right: 1px solid black;
+    margin: 0 7px;
+}
